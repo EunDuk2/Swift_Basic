@@ -43,5 +43,12 @@ class ViewController: UIViewController {
             resultInterval.text = "\(Int(interval)) 분마다"
         }
     }
+    
+    @IBAction func test2(_ sender: Any) {
+        guard let rvc = self.storyboard?.instantiateViewController(withIdentifier: "RVC") as? FormViewController else {
+            return
+        }
+        self.present(rvc, animated: true)
+    }
 }
 
