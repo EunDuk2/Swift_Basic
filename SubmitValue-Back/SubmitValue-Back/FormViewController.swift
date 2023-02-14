@@ -21,6 +21,8 @@ class FormViewController: UIViewController {
         vc.paramUpdate = self.isUpdate.isOn
         vc.paramInterval = self.interval.value
         
+        //vc.resultEmail.text = self.email.text
+        
         // 이전 화면으로 복귀한다.
         self.presentingViewController?.dismiss(animated: true)
     }
