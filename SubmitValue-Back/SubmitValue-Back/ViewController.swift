@@ -31,24 +31,5 @@ class ViewController: UIViewController {
             resultInterval.text = "\(Int(interval)) 분마다"
         }
     }
-
-    @IBAction func test(_ sender: Any) {
-        if let email = paramEmail { // nil이 아니면 발동
-            resultEmail.text = email
-        }
-        if let update = paramUpdate {
-            resultUpdate.text = update==true ? "자동갱신" : "자동갱신안함"
-        }
-        if let interval = paramInterval {
-            resultInterval.text = "\(Int(interval)) 분마다"
-        }
-    }
-    
-    @IBAction func test2(_ sender: Any) {
-        guard let rvc = self.storyboard?.instantiateViewController(withIdentifier: "RVC") as? FormViewController else {
-            return
-        }
-        self.present(rvc, animated: true)
-    }
 }
 
