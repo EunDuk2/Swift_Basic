@@ -71,6 +71,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="resultEmail" destination="pCt-L0-x6Z" id="HcP-EN-2Vz"/>
+                        <outlet property="resultUpdate" destination="t2L-Oc-jVV" id="Iot-nY-wR7"/>
+                        <outlet property="resultinterval" destination="3Bl-1b-fVr" id="HmN-ob-aDc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -117,6 +122,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Submit"/>
+                                <connections>
+                                    <action selector="onSubmit:" destination="Kh1-ln-6wv" eventType="touchUpInside" id="eI0-5v-e0d"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="자동갱신" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfC-1F-OBO">
                                 <rect key="frame" x="68" y="196" width="59" height="21"/>
@@ -129,6 +137,11 @@
                         <viewLayoutGuide key="safeArea" id="aJj-ZQ-o5t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="gkw-6p-ecV" id="K9c-iY-Yne"/>
+                        <outlet property="interval" destination="TpC-Gq-cET" id="Hw7-tG-9k7"/>
+                        <outlet property="isUpdate" destination="pwd-Pa-tGC" id="o8C-f2-y2G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C20-QQ-cPq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
