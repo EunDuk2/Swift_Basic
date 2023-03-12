@@ -29,6 +29,5 @@ class ViewController: UIViewController {
         resultInterval.text = "\(Int(interval)) 분마다"
     }
 
-
 }
 
