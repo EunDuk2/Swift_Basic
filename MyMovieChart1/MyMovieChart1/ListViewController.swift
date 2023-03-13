@@ -49,7 +49,7 @@ class ListViewController: UITableViewController {
         title?.text = row.title
         desc?.text = row.description
         opendate?.text = row.opendate
-        rating?.text = "\(row.rating)"
+        rating?.text = "\(row.rating!)"
         
         return cell
     }
@@ -57,6 +57,10 @@ class ListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         NSLog("선택된 행은 \(indexPath.row) 번째 행입니다.")
     }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+            return 80
+        }
     
     
 }
