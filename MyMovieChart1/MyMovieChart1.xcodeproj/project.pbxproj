@@ -15,6 +15,10 @@
 		61A65C2F29BE183500F79327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A65C2D29BE183500F79327 /* LaunchScreen.storyboard */; };
 		61A65C3729BE18FA00F79327 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A65C3629BE18FA00F79327 /* ListViewController.swift */; };
 		61A65C3929BE1CF700F79327 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A65C3829BE1CF700F79327 /* MovieVO.swift */; };
+		61AF9D5F29BF4DD900A2C568 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF9D5E29BF4DD900A2C568 /* MovieCell.swift */; };
+		61AF9D6429BF542500A2C568 /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61AF9D6129BF542500A2C568 /* darknight.jpg */; };
+		61AF9D6529BF542500A2C568 /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61AF9D6229BF542500A2C568 /* secret.jpg */; };
+		61AF9D6629BF542500A2C568 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61AF9D6329BF542500A2C568 /* rain.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		61A65C3029BE183500F79327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61A65C3629BE18FA00F79327 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		61A65C3829BE1CF700F79327 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
+		61AF9D5E29BF4DD900A2C568 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		61AF9D6129BF542500A2C568 /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
+		61AF9D6229BF542500A2C568 /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
+		61AF9D6329BF542500A2C568 /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 		61A65C1629BE183300F79327 = {
 			isa = PBXGroup;
 			children = (
+				61AF9D6029BF532200A2C568 /* Resources */,
 				61A65C2129BE183300F79327 /* MyMovieChart1 */,
 				61A65C2029BE183300F79327 /* Products */,
 			);
@@ -66,11 +75,22 @@
 				61A65C2629BE183300F79327 /* ViewController.swift */,
 				61A65C2829BE183300F79327 /* Main.storyboard */,
 				61A65C3629BE18FA00F79327 /* ListViewController.swift */,
+				61AF9D5E29BF4DD900A2C568 /* MovieCell.swift */,
 				61A65C2B29BE183500F79327 /* Assets.xcassets */,
 				61A65C2D29BE183500F79327 /* LaunchScreen.storyboard */,
 				61A65C3029BE183500F79327 /* Info.plist */,
 			);
 			path = MyMovieChart1;
+			sourceTree = "<group>";
+		};
+		61AF9D6029BF532200A2C568 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61AF9D6129BF542500A2C568 /* darknight.jpg */,
+				61AF9D6329BF542500A2C568 /* rain.jpg */,
+				61AF9D6229BF542500A2C568 /* secret.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +151,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61AF9D6429BF542500A2C568 /* darknight.jpg in Resources */,
+				61AF9D6629BF542500A2C568 /* rain.jpg in Resources */,
 				61A65C2F29BE183500F79327 /* LaunchScreen.storyboard in Resources */,
 				61A65C2C29BE183500F79327 /* Assets.xcassets in Resources */,
 				61A65C2A29BE183300F79327 /* Main.storyboard in Resources */,
+				61AF9D6529BF542500A2C568 /* secret.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +169,7 @@
 			files = (
 				61A65C2729BE183300F79327 /* ViewController.swift in Sources */,
 				61A65C2329BE183300F79327 /* AppDelegate.swift in Sources */,
+				61AF9D5F29BF4DD900A2C568 /* MovieCell.swift in Sources */,
 				61A65C3729BE18FA00F79327 /* ListViewController.swift in Sources */,
 				61A65C2529BE183300F79327 /* SceneDelegate.swift in Sources */,
 				61A65C3929BE1CF700F79327 /* MovieVO.swift in Sources */,
