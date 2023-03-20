@@ -54,7 +54,7 @@ class ListViewController: UITableViewController {
         cell.opendate?.text = row.opendate
         cell.rating?.text = "\(row.rating!)"
         cell.thumbnail.image = UIImage(named: row.thumnail!)
-        
+        NSLog("gd")
         return cell
     }
     
